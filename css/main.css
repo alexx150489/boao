@@ -30,7 +30,8 @@ input {outline:none;}
 /* General */
 main {min-height:100%;}
 .clear.clear-footer {height:100px;}
-.site-wrap {	}
+
+.site-wrap {padding:0 120px; height: 100%;}
 
 .container {
 	min-width: 990px;
@@ -43,9 +44,7 @@ main {min-height:100%;}
 	padding-left: 300px;
 }
 
-.first-screen {
-	height: 100vh;
-}
+
 
 
 /* Header */
@@ -93,6 +92,14 @@ header {width:100%;}
 /* ==========================================================================
 	 Начало CSS >>>
 	 ========================================================================== */
+
+.first-screen {
+	position: relative;
+	height: 100vh;
+	background: url("../images/first-screen-bg.jpg") 0 0 no-repeat;
+	background-size: cover;
+}
+
 /* ==========================================================================
 	 block-header >>>
 	 ========================================================================== */
@@ -108,7 +115,7 @@ header {width:100%;}
 	width: 300px;
 	padding-top: 34px;
 	padding-left: 56px;
-	background-image: url("../images/bgz.png"), linear-gradient(to bottom, #6e3559 22%,#401841 100%);
+	background-image: url("../images/texture.png"), linear-gradient(to bottom, #6e3559 22%,#401841 100%);
 	z-index: 999;
 }
 
@@ -140,19 +147,187 @@ header {width:100%;}
 }
 
 .block-sidebar .list a {
-	display: block;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
 	font-family: "AmazingGrotesk", sans-serif;
 	font-size: 16px;
 	line-height: 44px;
 	color: #ffd200;
+}
+.block-sidebar .list a::after {
+	position: absolute;
+	content: '';
+	width: 7px;
+	height: 11px;
+	top: 16px;
+	right: -21px;
+	background:	url("../images/sprite.png") -62px -10px no-repeat;
 }
 
 .block-sidebar .list a:first-letter {
 	font-family: "AmazingGrotesk-DemiBold", sans-serif;
 }
 
-
 .block-promo span {
 	font-size: 15px;
 	line-height: 16px;
+}
+
+/* ==========================================================================
+	 block-header >>>
+	 ========================================================================== */
+.block-header {
+	margin-bottom: 70px;
+	padding-top: 47px;
+}
+
+.block-header nav {
+	float: left;
+}
+
+.block-header .header-lk {
+	float: right;
+}
+
+.block-header .header-lk a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 13px;
+	font-weight: 100;
+	color: #fff;
+}
+
+.block-header ul {
+	font-size: 0;
+}
+
+.block-header li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 13px;
+}
+
+.block-header li:last-child {
+	margin-right: 0;
+}
+
+.block-header .nav-link {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 13px;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/* ==========================================================================
+	 block-promo >>>
+	 ========================================================================== */
+
+.block-promo {
+
+}
+
+.block-promo .title-warpper {
+	width: 780px;
+	position: relative;
+}
+
+.block-promo h2 {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 25px;
+	font-family: "AmazingGrotesk-DemiBold", sans-serif;
+	font-size: 52px;
+	line-height: 76px;
+	color: #fff;
+	background: #ec9b00; 
+	margin-bottom: 3px;
+	/*background: -moz-linear-gradient(left, #ec9b00 0%, #d30031 76%); 
+	background: -webkit-linear-gradient(left, #ec9b00 0%,#d30031 76%); 
+	background: linear-gradient(to right, #ec9b00 0%,#d30031 76%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec9b00', endColorstr='#d30031',GradientType=1 );	IE6-9 */
+}
+
+.block-promo .check-map {
+	position: absolute;
+}
+.block-promo .check-map span {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #fff;
+	border-bottom: 1px dashed #fff;
+}
+
+.promo-items {
+	font-size: 0;
+	position: absolute;
+	bottom: 0;
+	left: 120px;
+}
+
+.block-promo .item {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 33.33333333%;
+	padding-top: 118px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.block-promo .item.item1 {
+	padding-right: 21%;
+}
+
+.block-promo .item.item1::after {
+	position: absolute;
+	content: '';
+	width: 90px;
+	height: 88px;
+	top: 0;
+	left: 0;
+	background:	url("../images/sprite.png") -89px -10px no-repeat;
+}
+
+.block-promo .item.item2 {
+	padding-right: 21%;
+}
+
+.block-promo .item.item2::after {
+	position: absolute;
+	content: '';
+	width: 90px;
+	height: 89px;
+	top: 0;
+	left: 0;
+	background:	url("../images/sprite.png") -928px -10px no-repeat;
+}
+
+.block-promo .item.item3 {
+	padding-right: 21%;
+}
+
+.block-promo .item.item3::after {
+	position: absolute;
+	content: '';
+	width: 90px;
+	height: 94px;
+	top: 0;
+	left: 0;
+	background:	url("../images/sprite.png") -818px -10px no-repeat;
+}
+
+/* ==========================================================================
+	 block-sections >>>
+	 ========================================================================== */
+
+.block-sections .item{
+	height: 440px;
 }

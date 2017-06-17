@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Arrow_Forward {
+    width: 32px;
+    height: 22px;
+    background-position: -10px -10px;
+}
+
+.sprite-arrow-right {
+    width: 7px;
+    height: 11px;
+    background-position: -62px -10px;
+}
+
+.sprite-icon1 {
+    width: 90px;
+    height: 88px;
+    background-position: -89px -10px;
+}
+
+.sprite-icon10 {
+    width: 157px;
+    height: 201px;
+    background-position: -199px -10px;
+}
+
+.sprite-icon11 {
+    width: 182px;
+    height: 216px;
+    background-position: -376px -10px;
+}
+
+.sprite-icon12 {
+    width: 220px;
+    height: 226px;
+    background-position: -578px -10px;
+}
+
+.sprite-icon2 {
+    width: 90px;
+    height: 94px;
+    background-position: -818px -10px;
+}
+
+.sprite-icon3 {
+    width: 90px;
+    height: 89px;
+    background-position: -928px -10px;
+}
+
+.sprite-icon4 {
+    width: 199px;
+    height: 169px;
+    background-position: -1038px -10px;
+}
+
+.sprite-icon5 {
+    width: 240px;
+    height: 157px;
+    background-position: -1257px -10px;
+}
+
+.sprite-icon6 {
+    width: 180px;
+    height: 201px;
+    background-position: -1517px -10px;
+}
+
+.sprite-icon7 {
+    width: 159px;
+    height: 176px;
+    background-position: -1717px -10px;
+}
+
+.sprite-icon8 {
+    width: 201px;
+    height: 183px;
+    background-position: -1896px -10px;
+}
+
+.sprite-icon9 {
+    width: 176px;
+    height: 172px;
+    background-position: -2117px -10px;
+}
