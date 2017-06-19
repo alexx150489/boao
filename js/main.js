@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$(".block-header .link-about-us").on("click", function(e) {
+	$(".block-sidebar .link1").on("click", function(e) {
 		e.preventDefault();
 		var currentBlock = $(this).attr("href"),
 		currentBlockOffset = $(currentBlock).offset().top;
@@ -9,7 +9,7 @@ $(document).ready(function() {
 		}, 500);
 	});
 
-	$(".block-header .link-profit").on("click", function(e) {
+	$(".block-sidebar .link2").on("click", function(e) {
 		e.preventDefault();
 		var currentBlock = $(this).attr("href"),
 		currentBlockOffset = $(currentBlock).offset().top;
@@ -18,7 +18,7 @@ $(document).ready(function() {
 		}, 500);
 	});
 
-	$(".block-header .link-about-course").on("click", function(e) {
+	$(".block-sidebar .link3").on("click", function(e) {
 		e.preventDefault();
 		var currentBlock = $(this).attr("href"),
 		currentBlockOffset = $(currentBlock).offset().top;
@@ -27,7 +27,7 @@ $(document).ready(function() {
 		}, 500);
 	});
 
-	$(".block-header .link-certificate").on("click", function(e) {
+	$(".block-sidebar .link4").on("click", function(e) {
 		e.preventDefault();
 		var currentBlock = $(this).attr("href"),
 		currentBlockOffset = $(currentBlock).offset().top;
@@ -36,7 +36,7 @@ $(document).ready(function() {
 		}, 500);
 	});
 
-	$(".block-header .link-price").on("click", function(e) {
+	$(".block-sidebar .link5").on("click", function(e) {
 		e.preventDefault();
 		var currentBlock = $(this).attr("href"),
 		currentBlockOffset = $(currentBlock).offset().top;
@@ -45,7 +45,7 @@ $(document).ready(function() {
 		}, 500);
 	});
 
-	$(".block-header .link-contacts").on("click", function(e) {
+	$(".block-sidebar .link6").on("click", function(e) {
 		e.preventDefault();
 		var currentBlock = $(this).attr("href"),
 		currentBlockOffset = $(currentBlock).offset().top;
@@ -54,7 +54,7 @@ $(document).ready(function() {
 		}, 500);
 	});
 
-	$(".block-request .go-top-btn").on("click", function(e) {
+	$(".block-sidebar .link7").on("click", function(e) {
 		e.preventDefault();
 		var currentBlock = $(this).attr("href"),
 		currentBlockOffset = $(currentBlock).offset().top;
@@ -62,5 +62,24 @@ $(document).ready(function() {
 			scrollTop: currentBlockOffset
 		}, 500);
 	});
+
+	$(".block-sidebar .link8").on("click", function(e) {
+		e.preventDefault();
+		var currentBlock = $(this).attr("href"),
+		currentBlockOffset = $(currentBlock).offset().top;
+		$("html, body").animate({
+			scrollTop: currentBlockOffset
+		}, 500);
+	});
+
+	$(".block-sidebar .link9").on("click", function(e) {
+		e.preventDefault();
+		var currentBlock = $(this).attr("href"),
+		currentBlockOffset = $(currentBlock).offset().top;
+		$("html, body").animate({
+			scrollTop: currentBlockOffset
+		}, 500);
+	});
+
 
 });

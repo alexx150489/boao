@@ -4,9 +4,9 @@
 
 /* Typography */
 
-* {
+/** {
 	transition: all .6s ease-in;
-}
+}*/
 
 html, body {margin:0px; padding:0px; font-family:'Arial'; font-size:14px; line-height:18px; color:#000; background:#fff; height:100%;}
 html.fancybox-lock {overflow:visible !important;}
@@ -140,6 +140,18 @@ header {width:100%;}
 	color: #fff;
 }
 
+.block-sidebar .logotype-wrapper .language.eng:hover{
+	text-decoration: underline;
+}
+
+.block-sidebar .logotype {
+	transition: all .2s ease-in;
+}
+
+.block-sidebar .logotype:hover {
+	opacity: .8;
+}
+
 .block-sidebar .list-wrapper {
 	padding-left: 3px;
 }
@@ -159,7 +171,13 @@ header {width:100%;}
 	font-size: 16px;
 	line-height: 44px;
 	color: #ffd200;
+	transition: color .2s ease-in;
 }
+
+.block-sidebar .list a:hover {
+	color: #fff;
+}
+
 .block-sidebar .list a::after {
 	position: absolute;
 	content: '';
@@ -192,14 +210,14 @@ header {width:100%;}
 	width: 80%;
 }
 
-.block-header .header-lk {
+.block-header .header-right {
 	float: right;
 	width: 20%;
 	padding-left: 15px;
 	text-align: right;
 }
 
-.block-header .header-lk a {
+.block-header .header-right a {
 	vertical-align: top;
 	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
@@ -209,7 +227,11 @@ header {width:100%;}
 	color: #fff;
 }
 
-.block-header ul {
+.block-header .header-right a:hover {
+	text-decoration: underline;
+}
+
+.block-header menu {
 	font-size: 0;
 }
 
@@ -232,16 +254,24 @@ header {width:100%;}
 	color: #fff;
 }
 
+.block-header .nav-link:hover {
+	text-decoration: underline;
+}
+
 /* ==========================================================================
 	 block-promo >>>
 	 ========================================================================== */
 
+
 .block-promo .title-wrapper {
 	width: 780px;
-	position: relative;
+	position: absolute;
+	top: calc(50% - 70px);
+	transform: translateY(-50%);
+	left: 120px;
 }
 
-.block-promo h2 {
+.block-promo .title {
 	display: inline-block;
 	vertical-align: top;
 	padding: 0 25px;
@@ -272,6 +302,11 @@ header {width:100%;}
 	color: #fff;
 	border-bottom: 1px dashed #fff;
 }
+
+.block-promo .check-map span:hover {
+	border-bottom: 1px dashed transparent;
+}
+
 
 .promo-items {
 	font-size: 0;
@@ -344,6 +379,9 @@ header {width:100%;}
 	 ========================================================================== */
 
 .block-sections .item {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
 	height: 440px;
 }
 
@@ -368,6 +406,11 @@ header {width:100%;}
 	transform: translateY(-50%);
 	right: -61px;
 	background:	url("../images/sprite.png") -10px -10px no-repeat;
+	transition: all .2s ease-in;
+}
+
+.block-sections .item:hover .title:last-child span::after {
+	opacity: .8;
 }
 
 .block-sections .title-wrapper {
@@ -387,7 +430,12 @@ header {width:100%;}
 	background: -moz-linear-gradient(left, #ec9b00 0%, #fac800 83%); 
 	background: -webkit-linear-gradient(left, #ec9b00 0%,#fac800 83%); 
 	background: linear-gradient(to right, #ec9b00 0%,#fac800 83%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec9b00', endColorstr='#d30031',GradientType=1 );	 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec9b00', endColorstr='#d30031',GradientType=1 );
+	transition: all .2s ease-in;
+}
+
+.block-sections .item:hover .title span {
+	opacity: .8;
 }
 
 .block-sections .item .text {
@@ -402,6 +450,11 @@ header {width:100%;}
 	font-weight: 100;
 	color: #fff;
 	background-color: rgba(0, 0, 0, .4);
+	transition: all .2s ease-in;
+}
+
+.block-sections .item:hover .text p {
+	opacity: .8;
 }
 
 .block-sections .item .item-wrapper {
@@ -552,7 +605,7 @@ header {width:100%;}
 	background-color: #333333;
 }
 
-.block-about h2 {
+.block-about .title {
 	margin-bottom: 12px;
 	font-family: "AmazingGrotesk-DemiBold", sans-serif;
 	font-size: 48px;
@@ -595,6 +648,14 @@ header {width:100%;}
 	font-size: 18px;
 	line-height: 18px;
 	color: #fff;
+	border: 1px solid transparent;
+	transition: all .2s ease-in;
+}
+
+.block-about .about-btn:hover {
+	color: #eb9700;
+	background-color: transparent;
+	border: 1px solid #eb9700;
 }
 
 /* ==========================================================================
@@ -608,14 +669,14 @@ header {width:100%;}
 	.block-promo .title-wrapper {
 		width: 636px;
 	}
-	.block-promo h2 {
+	.block-promo .title {
 		font-size: 42px;
 	}
 
 	.block-promo .item {
 		padding-right: 40px;
 	}
-	
+
 	.block-promo .check-map {
 		bottom: -52px;
 		right: 7px;
