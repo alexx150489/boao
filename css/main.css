@@ -3,6 +3,11 @@
 	 ========================================================================== */
 
 /* Typography */
+
+* {
+	transition: all .6s ease-in;
+}
+
 html, body {margin:0px; padding:0px; font-family:'Arial'; font-size:14px; line-height:18px; color:#000; background:#fff; height:100%;}
 html.fancybox-lock {overflow:visible !important;}
 html.fancybox-lock body {position:relative;}
@@ -184,10 +189,14 @@ header {width:100%;}
 
 .block-header nav {
 	float: left;
+	width: 80%;
 }
 
 .block-header .header-lk {
 	float: right;
+	width: 20%;
+	padding-left: 15px;
+	text-align: right;
 }
 
 .block-header .header-lk a {
@@ -250,8 +259,8 @@ header {width:100%;}
 
 .block-promo .check-map {
 	position: absolute;
-	bottom: 0;
-	right: 0;
+	bottom: 8px;
+	right: -150px;
 	width: 120px;
 }
 
@@ -285,6 +294,8 @@ header {width:100%;}
 	font-weight: 700;
 	color: #fff;
 }
+
+
 
 /*.block-promo .item.item1 {
 	padding-right: 316px;
@@ -587,18 +598,27 @@ header {width:100%;}
 }
 
 /* ==========================================================================
-	 @MQ >>>
+	 @MEDIAQUERIES >>>
 	 ========================================================================== */
 @media (max-width: 1440px) {
 	.site-wrap {
 		padding: 0 30px;
 	}
 
+	.block-promo .title-wrapper {
+		width: 636px;
+	}
 	.block-promo h2 {
 		font-size: 42px;
 	}
 
 	.block-promo .item {
-		padding-right: 30px;
+		padding-right: 40px;
 	}
+	
+	.block-promo .check-map {
+		bottom: -52px;
+		right: 7px;
+	}
+
 }
