@@ -133,7 +133,7 @@ header {width:100%;}
 	position: absolute;
 	top: 13px;
 	left: 139px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "OpenSansLight", sans-serif;
 	font-size: 13px;
 	line-height: 13px;
 	text-transform: uppercase;
@@ -220,7 +220,7 @@ header {width:100%;}
 .block-header .header-right a {
 	vertical-align: top;
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "OpenSansLight", sans-serif;
 	font-size: 13px;
 	line-height: 13px;
 	font-weight: 100;
@@ -246,7 +246,7 @@ header {width:100%;}
 }
 
 .block-header .nav-link {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "OpenSansLight", sans-serif;
 	font-size: 13px;
 	line-height: 13px;
 	font-weight: 100;
@@ -295,7 +295,7 @@ header {width:100%;}
 }
 
 .block-promo .check-map span {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "OpenSansSemiBold", sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 600;
@@ -323,7 +323,7 @@ header {width:100%;}
 	padding-top: 118px;
 	padding-right: 60px;
 	padding-bottom: 70px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "OpenSansBold", sans-serif;
 	font-size: 16px;
 	line-height: 26px;
 	font-weight: 700;
@@ -444,7 +444,7 @@ header {width:100%;}
 
 .block-sections .item .text p {
 	display: inline;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "OpenSansLight", sans-serif;
 	font-size: 20px;
 	line-height: 28px;
 	font-weight: 100;
@@ -632,7 +632,7 @@ header {width:100%;}
 }
 
 .block-about .text p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "OpenSansLight", sans-serif;
 	font-size: 16px;
 	line-height: 30px;
 	font-weight: 100;
