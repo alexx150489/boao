@@ -688,17 +688,13 @@ header {width:100%;}
 	}
 
 	.block-promo .check-map {
-		bottom: 22px;
+		bottom: 20px;
 		right: -24px;
 	}
 
 
 	.block-promo .check-map span {
-			font-family: "OpenSansSemiBold", sans-serif;
-			font-size: 13px;
-			line-height: 19px;
-			font-weight: 600;
-			color: #fff;
-			border-bottom: 1px dashed #fff;
+		font-size: 13px;
+		line-height: 19px;
 	}
 }
