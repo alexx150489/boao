@@ -440,6 +440,8 @@ header {width:100%;}
 
 .block-sections .item .text {
 	width: 572px;
+	position: relative;
+	z-index: 99;
 }
 
 .block-sections .item .text p {
