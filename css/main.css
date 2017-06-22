@@ -289,7 +289,7 @@ header {width:100%;}
 
 .block-promo .check-map {
 	position: absolute;
-	bottom: 8px;
+	bottom: 20px;
 	right: -150px;
 	width: 120px;
 }
@@ -668,18 +668,35 @@ header {width:100%;}
 
 	.block-promo .title-wrapper {
 		width: 636px;
+		left: 30px;
 	}
 	.block-promo .title {
-		font-size: 42px;
+		font-size: 34px;
+		line-height: 73px;
+	}
+
+	.block-promo .promo-items {
+		left: 30px;
 	}
 
 	.block-promo .item {
 		padding-right: 40px;
+		font-size: 15px;
+		line-height: 25px;
 	}
 
 	.block-promo .check-map {
-		bottom: -52px;
-		right: 7px;
+		bottom: 22px;
+		right: -24px;
 	}
 
+
+	.block-promo .check-map span {
+			font-family: "OpenSansSemiBold", sans-serif;
+			font-size: 13px;
+			line-height: 19px;
+			font-weight: 600;
+			color: #fff;
+			border-bottom: 1px dashed #fff;
+	}
 }
