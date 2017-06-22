@@ -416,6 +416,8 @@ header {width:100%;}
 .block-sections .title-wrapper {
 	padding-top: 115px;
 	margin-bottom: 31px;
+	position: relative;
+	z-index: 99;
 }
 
 .block-sections .item .title span {
