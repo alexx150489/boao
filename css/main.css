@@ -888,6 +888,20 @@ header {width:100%;}
 	color: #fff;
 }
 
+.block-sport .answer p {
+	position: relative;
+}
+
+.block-sport .answer p::after {
+	position: absolute;
+	content: '';
+	width: 20px;
+	height: 1px;
+	top: 14px;
+	left: -48px;
+	background-color: #fff;
+}
+
 .sport-gallery img {
 	width: 100%;
 	max-width: 100%;
@@ -1048,6 +1062,10 @@ header {width:100%;}
 		width: 100%;
 		padding-left: 0;
 		padding-right: 14px;
+	}
+
+	.block-sport .interview {
+		padding-left: 59px;
 	}
 
 	.block-sport .photo {
