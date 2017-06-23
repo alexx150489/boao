@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+	// ancors
 	$(".block-sidebar .link1").on("click", function(e) {
 		e.preventDefault();
 		var currentBlock = $(this).attr("href"),
@@ -81,5 +82,31 @@ $(document).ready(function() {
 		}, 500);
 	});
 
+	// slcik slider http://kenwheeler.github.io/slick/ >>>
+	// block-meditation
+
+	$('.meditation-gallery .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.meditation-gallery .slider-prev'),
+		nextArrow: $('.meditation-gallery .slider-next')
+	});
+
+		$('.sport-gallery .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.sport-gallery .slider-prev'),
+		nextArrow: $('.sport-gallery .slider-next')
+	});
 
 });
