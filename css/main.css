@@ -306,7 +306,7 @@ header {width:100%;}
 }
 
 .block-header .title-wrapper {
-	width: 718px;
+	width: 605px;
 	padding-top: 26px;
 	position: absolute;
 	top: 50%;
@@ -749,6 +749,7 @@ header {width:100%;}
 }
 
 .block-meditation h2 {
+	max-width: 930px;
 	font-family: "AmazingGrotesk-DemiBold", sans-serif;
 	font-size: 36px;
 	line-height: 48px;
@@ -770,7 +771,7 @@ header {width:100%;}
 }
 
 .block-meditation .gallery-descr {
-	max-width: 660px;
+	width: 80%;
 	float: left;
 	font-family: "AmazingGrotesk-DemiBold", sans-serif;
 	font-size: 18px;

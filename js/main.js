@@ -82,6 +82,8 @@ $(document).ready(function() {
 		}, 500);
 	});
 
+
+
 	// slcik slider http://kenwheeler.github.io/slick/ >>>
 	// block-meditation
 
