@@ -86,7 +86,6 @@ $(document).ready(function() {
 
 	// slcik slider http://kenwheeler.github.io/slick/ >>>
 	// block-meditation
-
 	$('.meditation-gallery .slider').slick({
 		autoplay: true,
 		pauseOnHover: true,
@@ -98,7 +97,7 @@ $(document).ready(function() {
 		prevArrow: $('.meditation-gallery .slider-prev'),
 		nextArrow: $('.meditation-gallery .slider-next')
 	});
-
+	// block-sport
 		$('.sport-gallery .slider').slick({
 		autoplay: true,
 		pauseOnHover: true,
@@ -110,5 +109,54 @@ $(document).ready(function() {
 		prevArrow: $('.sport-gallery .slider-prev'),
 		nextArrow: $('.sport-gallery .slider-next')
 	});
+		// block-sea
+		$('.sea-gallery1 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.sea-gallery1 .slider-prev'),
+		nextArrow: $('.sea-gallery1 .slider-next')
+	});
+	// block-sea
+	$('.sea-gallery2 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.sea-gallery2 .slider-prev'),
+		nextArrow: $('.sea-gallery2 .slider-next')
+	});
+	// block-seafood
+	$('.seafood-gallery .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.seafood-gallery .slider-prev'),
+		nextArrow: $('.seafood-gallery .slider-next')
+	});
+	// block-seafood
+		$('.seafood-gallery2 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.seafood-gallery2 .slider-prev'),
+		nextArrow: $('.seafood-gallery2 .slider-next')
+	});
+
 
 });
