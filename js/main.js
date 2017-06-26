@@ -157,6 +157,40 @@ $(document).ready(function() {
 		prevArrow: $('.seafood-gallery2 .slider-prev'),
 		nextArrow: $('.seafood-gallery2 .slider-next')
 	});
-
-
+	// block-international
+		$('.international-gallery1 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.international-gallery1 .slider-prev'),
+		nextArrow: $('.international-gallery1 .slider-next')
+	});
+	// block-music
+		$('.music-gallery1 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.music-gallery1 .slider-prev'),
+		nextArrow: $('.music-gallery1 .slider-next')
+	});
+	// block-music
+		$('.music-gallery2 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.music-gallery2 .slider-prev'),
+		nextArrow: $('.music-gallery2 .slider-next')
+	});
 });

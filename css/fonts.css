@@ -16,6 +16,11 @@
 }
 
 @font-face {
+	font-family: "AmazingGrotesk-Ultra";
+	src: url("../fonts/AmazingGrotesk-Ultra.woff") format("woff");
+}
+
+@font-face {
 	font-family: "OpenSansBold";
 	src: url("../fonts/OpenSans-Bold.woff") format("woff");
 }
