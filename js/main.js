@@ -193,4 +193,41 @@ $(document).ready(function() {
 		prevArrow: $('.music-gallery2 .slider-prev'),
 		nextArrow: $('.music-gallery2 .slider-next')
 	});
+		// block-honeymoon
+		$('.honeymoon-gallery1 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.honeymoon-gallery1 .slider-prev'),
+		nextArrow: $('.honeymoon-gallery1 .slider-next')
+	});
+
+	$('.honeymoon-gallery2 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.honeymoon-gallery2 .slider-prev'),
+		nextArrow: $('.honeymoon-gallery2 .slider-next')
+	});
+
+		$('.honeymoon-gallery3 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.honeymoon-gallery3 .slider-prev'),
+		nextArrow: $('.honeymoon-gallery3 .slider-next')
+	});
+
 });
