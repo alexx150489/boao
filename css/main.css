@@ -352,8 +352,14 @@ header {width:100%;}
 	background-size: cover;
 }
 
+.block-intro.nation {
+	background: #907859 url("../images/nation-bg.jpg") center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
 .block-intro .title-wrapper {
-	width: 580px;
+	width: 715px;
 	padding-top: 26px;
 	position: absolute;
 	top: 50%;
@@ -728,10 +734,8 @@ header {width:100%;}
 }
 
 
-/* ==========================================================================
-	 block-about >>>
-	 ========================================================================== */
 
+/* BLOCK-ABOUT	*/
 
 .block-about {
 	padding-top: 77px;
@@ -796,9 +800,8 @@ header {width:100%;}
 	border: 1px solid #eb9700;
 }
 
-/* ==========================================================================
-	 block-meditation >>>
-	 ========================================================================== */
+
+/* BLOCK-MEDITATION */
 
 .block-meditation {
 	padding-top: 87px;
@@ -882,9 +885,8 @@ header {width:100%;}
 	color: #fff;
 }
 
-/* ==========================================================================
-	 block-sport >>>
-	 ========================================================================== */
+
+/* BLOCK-SPORT */
 
 .block-sport {
 	padding-top: 89px;
@@ -903,7 +905,6 @@ header {width:100%;}
 	line-height: 48px;
 	color: #ffd200;
 }
-
 
 .block-sport .photo {
 	float: left;
@@ -1012,10 +1013,7 @@ header {width:100%;}
 	cursor: pointer;
 }
 
-
-/* ==========================================================================
-	 block-sea >>>
-	 ========================================================================== */
+/* BLOCK-SEA */
 
 .block-sea {
 	padding-top: 98px;
@@ -1181,9 +1179,8 @@ header {width:100%;}
 	background:	url("../images/sprite123.png") -42px -271px no-repeat;
 	cursor: pointer;
 }
-/* ==========================================================================
-	 block-seafood >>>
-	 ========================================================================== */
+
+	/* BLOCK-SEAFOOD */
 
 .block-seafood {
 	padding-top: 89px;
@@ -1374,9 +1371,9 @@ header {width:100%;}
 }
 
 
-/* ==========================================================================
-	 block-international >>>
-	 ========================================================================== */
+
+/* BLOCK-INTERNATIONAL */
+
 .block-international {
 	padding-top: 100px;
 	padding-bottom: 80px;
@@ -1645,9 +1642,9 @@ header {width:100%;}
 }
 
 
-/* ==========================================================================
-	 block-music >>>
-	 ========================================================================== */
+
+/*BLOCK-MUSIC*/
+
 .block-music {
 	padding-top: 98px;
 	padding-bottom: 54px;
@@ -1928,8 +1925,7 @@ header {width:100%;}
 }
 
 
-	 /* block-honeymoon >>>*/
-
+	 /* block-honeymoon */
 
 .block-honeymoon {padding-top:90px; padding-bottom:80px; background-color:#333333;}
 .block-honeymoon .honeymoon-title {margin-bottom:54px;}
@@ -1948,9 +1944,9 @@ header {width:100%;}
 .block-honeymoon .honeymoon-gallery2 img {width:100%; max-width:100%; height:auto;}
 .block-honeymoon .honeymoon-gallery2 .slider {margin-bottom: 34px;}
 .block-honeymoon .gallery-descr{width: 80%;float: left;font-family:"AmazingGrotesk-DemiBold",sans-serif;font-size:18px; line-height:36px; color: #fff;}
-.block-honeymoon .counter {position:relative;	padding-right:29px;	float:right;	font-family:"OpenSansLight", sans-serif;font-size: 16px;line-height: 34px;font-weight: 100;color: #fff;}
-.block-honeymoon .counter .slider-next {position: absolute;content: '';width: 12px;height: 20px;top: 6px;right: 0;background:	url("../images/sprite123.png") -74px -271px no-repeat;cursor: pointer;}
-.block-honeymoon .counter .slider-prev {position: absolute;content: ''; width: 12px;height: 20px;top:6px; left:-29px; background:url("../images/sprite123.png") -42px -271px no-repeat;cursor:pointer;
+.block-honeymoon .honeymoon-gallery2 .counter {position:relative;	padding-right:29px;	float:right;	font-family:"OpenSansLight", sans-serif;font-size: 16px;line-height: 34px;font-weight: 100;color: #fff;}
+.block-honeymoon .honeymoon-gallery2 .counter .slider-next {position: absolute;content: '';width: 12px;height: 20px;top: 6px;right: 0;background:	url("../images/sprite123.png") -74px -271px no-repeat;cursor: pointer;}
+.block-honeymoon .honeymoon-gallery2 .counter .slider-prev {position: absolute;content: ''; width: 12px;height: 20px;top:6px; left:-29px; background:url("../images/sprite123.png") -42px -271px no-repeat;cursor:pointer;
 }
 .block-honeymoon .honeymoon-gallery3 {position: relative;}
 .block-honeymoon .honeymoon-gallery3 .slider-wrapper {float:right; width: 60%;}
@@ -1962,7 +1958,7 @@ header {width:100%;}
 .block-honeymoon .honeymoon-gallery3 .slider-prev {position: absolute;content: '';width: 12px;height: 20px;top: 6px; left:-29px;background:url("../images/sprite123.png") -42px -271px no-repeat;cursor:pointer;}
 
 
-/* block-advices >>> */
+/* block-advices */
 .block-advices {padding-bottom:120px; background:#ec9a00;background: -moz-linear-gradient(left, #ec9a00 0%, #fac800 55%); background: -webkit-linear-gradient(left, #ec9a00 0%,#fac800 55%); background: linear-gradient(to right, #ec9a00 0%,#fac800 55%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec9a00', endColorstr='#fac800',GradientType=1 );}
 .block-advices .advices-title {position: relative;padding-top: 61px;padding-bottom: 13px;}
 .block-advices .advices-title::after {position: absolute;content: ''; width: 80px; height: 80px; top: 61px; right: 0; background:	url("../images/sprite123.png") -119px -272px no-repeat;}
@@ -1972,8 +1968,185 @@ header {width:100%;}
 .block-advices .advices-text p:last-child {margin-bottom: 0;}
 .block-advices .advices-text p::after {	position: absolute;	content: '';	width: 20px;	height: 1px;	top: 14px;	left: -48px;	background-color: #fff;}
 .block-advices.music img {float: left;	margin-right: 45px;}
-.block-advices.music a {font-family: "AmazingGrotesk-DemiBold", sans-serif;	font-size: 18px;	line-height: 30px;	color: #fff;	text-decoration: underline;}
-.block-advices.music a:hover {text-decoration: none;}
+.block-advices a {font-family: "AmazingGrotesk-DemiBold", sans-serif;	font-size: 18px;	line-height: 30px;	color: #fff;	text-decoration: underline;}
+.block-advices a:hover {text-decoration: none;}
+
+
+/* block-nation */
+
+.block-nation {padding-top:98px; padding-bottom:72px; background-color:#333333;}
+
+.block-nation .nation-info1 {
+	margin-bottom: 102px;
+	position: relative;
+}
+
+.block-nation .nation-info1::after {
+	position: absolute;
+	content: '';
+	width: 221px;
+	height: 1px;
+	bottom: -52px;
+	left: 0;
+	background-color: #fefefe;
+	opacity: .25;
+}
+
+.block-nation .nation-gallery1 {
+	margin-bottom: 50px;
+}
+
+.block-nation .nation-gallery1 .slider-wrapper {
+	position: relative;
+	float: left;
+	width: 60%;
+}
+
+.block-nation .nation-gallery1 .slider-wrapper img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+.block-nation .nation-gallery1 .descr-wrapper {
+	float: right;
+	width: 40%;
+}
+
+.block-nation .nation-gallery1 .descr {
+	padding-left: 52px;
+	margin-top: -7px;
+	font-family: "AmazingGrotesk-DemiBold", sans-serif;
+	font-size: 18px;
+	line-height: 36px;
+	color: #fff;
+}
+
+.block-nation .nation-gallery1 .counter {
+	position: absolute;
+	bottom: -7px;
+	right: -163px;
+	padding-right: 29px;
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 16px;
+	line-height: 34px;
+	font-weight: 100;
+	color: #fff;
+}
+
+.block-nation .nation-gallery1 .slider-next{
+	position: absolute;
+	content: '';
+	width: 12px;
+	height: 20px;
+	top: 6px;
+	right: 0;
+	background:	url("../images/sprite123.png") -74px -271px no-repeat;
+	cursor: pointer;
+}
+
+.block-nation .nation-gallery1 .slider-prev {
+	position: absolute;
+	content: '';
+	width: 12px;
+	height: 20px;
+	top: 6px;
+	left: -29px;
+	background:	url("../images/sprite123.png") -42px -271px no-repeat;
+	cursor: pointer;
+}
+
+.block-nation .nation-info1 .text {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 16px;
+	line-height: 34px;
+	font-weight: 100;
+	color: #fff;
+}
+
+.block-nation .nation-info2 {
+	margin-bottom: 56px;
+}
+
+.block-nation .nation-info2 .info2-title {
+	margin-bottom: 28px;
+}
+
+.block-nation .nation-info2 .info2-title h2 {
+	max-width: 880px;font-family: "AmazingGrotesk-DemiBold",sans-serif;	font-size: 36px;line-height: 48px;color: #ffd200;
+}
+
+.block-nation .nation-info2 .info2-text {
+	margin-bottom: 31px;
+}
+
+.block-nation .nation-info2 .info2-text p {
+	font-family: "AmazingGrotesk-DemiBold",sans-serif;	font-size: 18px;line-height: 36px;color: #fff;
+}
+
+.block-nation .nation-gallery2 {position: relative;}
+.block-nation .nation-gallery2 .slider-wrapper {float:right; width: 60%;}
+.block-nation .nation-gallery2 .slider-wrapper img {width:100%;max-width:100%;height:auto;}
+.block-nation .nation-gallery2 .descr-wrapper {float:left;width:40%;}
+.block-nation .nation-gallery2 .descr {padding-right: 52px;margin-top: -7px;font-family: "OpenSansLight", sans-serif;font-size: 16px;line-height: 34px;font-weight: 100;color: #fff;}
+.block-nation .nation-gallery2 .counter {position: absolute;bottom: -7px; left: 29px;padding-right: 29px;font-family: "OpenSansLight", sans-serif;font-size: 16px;line-height: 34px;font-weight: 100;color: #fff;}
+.block-nation .nation-gallery2 .slider-next {position: absolute;content: '';width: 12px;height: 20px;top: 6px;right: 0;background:url("../images/sprite123.png") -74px -271px no-repeat;cursor: pointer;}
+.block-nation .nation-gallery2 .slider-prev {position: absolute;content: '';width: 12px;height: 20px;top: 6px; left:-29px;background:url("../images/sprite123.png") -42px -271px no-repeat;cursor:pointer;}
+
+
+.block-nation .nation-info3 .info3-text {
+		margin-bottom: 51px;
+}
+
+.block-nation .nation-info3 .info3-text p {
+	font-family: "AmazingGrotesk-DemiBold",sans-serif;	font-size: 18px;line-height: 36px;color: #fff;
+}
+
+.block-nation .nation-gallery3 img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.block-nation .nation-gallery3 .slider {
+	margin-bottom: 33px;
+}
+
+.block-nation .nation-gallery3 .counter {
+	font-family: "OpenSansLight", sans-serif;
+	font-size: 16px;
+	line-height: 34px;
+	font-weight: 100;
+	color: #fff;
+	text-align: center;
+}
+
+.block-nation .nation-gallery3 .counter-wrapper {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.block-nation .nation-gallery3 .counter .slider-next{
+	position: absolute;
+	content: '';
+	width: 12px;
+	height: 20px;
+	top: 6px;
+	right: -31px;
+	background:	url("../images/sprite123.png") -74px -271px no-repeat;
+	cursor: pointer;
+}
+
+.block-nation .nation-gallery3 .counter .slider-prev{
+	position: absolute;
+	content: '';
+	width: 12px;
+	height: 20px;
+	top: 6px;
+	left: -31px;
+	background:	url("../images/sprite123.png") -42px -271px no-repeat;
+	cursor: pointer;
+}
 
 /* ==========================================================================
 	 @MEDIAQUERIES >>>
@@ -1990,8 +2163,9 @@ header {width:100%;}
 	}
 
 	/* .block-intro */
+	
 	.block-intro .title-wrapper {left: 30px;}
-	.block-intro.honeymoon .title {font-size: 60px;}
+	.block-intro .title {font-size: 58px;}
 
 	/* .block-promo */
 	.block-promo .title-wrapper {
@@ -2148,6 +2322,51 @@ header {width:100%;}
 		width: 500px;
 	}
 
+	/*block-nation*/
+	.block-nation .nation-gallery1 .slider-wrapper {
+			position: relative;
+			float: none;
+			width: 100%;
+			margin-bottom: 34px;
+		}
+
+		.block-nation .nation-gallery1 .descr-wrapper {
+			float: none;
+			width: 78%;
+		}
+
+		.block-nation .nation-gallery1 .descr {
+			padding-left: 0;
+		}
+
+		.block-nation .nation-gallery1 .counter {
+			bottom: -64px;
+			z-index: 99;
+			right: 0;
+		}
+
+	.block-nation .nation-gallery2 .slider-wrapper {
+		position: relative;
+		float: none;
+		width: 100%;
+		margin-bottom: 34px;
+	}
+
+	.block-nation .nation-gallery2 .descr-wrapper {
+		float: none;
+		width: 78%;
+	}
+
+	.block-nation .nation-gallery2 .descr {
+		padding-left: 0;
+	}
+
+	.block-nation .nation-gallery2 .counter {
+		bottom: 28px;
+		z-index: 99;
+		right: 0;
+		left: auto;
+	}
 
 	/*block-music*/
 	.block-music .music-gallery1 .slider-wrapper {
@@ -2239,7 +2458,6 @@ header {width:100%;}
 		right: 0;
 		left: auto;
 	}
-
 
 	/*block-advices*/
 	.block-advices .advices-text {

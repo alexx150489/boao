@@ -230,4 +230,41 @@ $(document).ready(function() {
 		nextArrow: $('.honeymoon-gallery3 .slider-next')
 	});
 
+		// nation
+		$('.block-nation .nation-gallery1 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.block-nation .nation-gallery1 .slider-prev'),
+		nextArrow: $('.block-nation .nation-gallery1 .slider-next')
+	});
+
+		$('.block-nation .nation-gallery2 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.block-nation .nation-gallery2 .slider-prev'),
+		nextArrow: $('.block-nation .nation-gallery2 .slider-next')
+	});
+
+		$('.block-nation .nation-gallery3 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.block-nation .nation-gallery3 .slider-prev'),
+		nextArrow: $('.block-nation .nation-gallery3 .slider-next')
+	});
+
 });
