@@ -266,5 +266,16 @@ $(document).ready(function() {
 		prevArrow: $('.block-nation .nation-gallery3 .slider-prev'),
 		nextArrow: $('.block-nation .nation-gallery3 .slider-next')
 	});
-
+		// medtravel
+		$('.block-medtravel .medtravel-gallery1 .slider').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.block-medtravel .medtravel-gallery1 .slider-prev'),
+		nextArrow: $('.block-medtravel .medtravel-gallery1 .slider-next')
+	});
 });
