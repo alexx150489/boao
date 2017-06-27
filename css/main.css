@@ -359,7 +359,7 @@ header {width:100%;}
 }
 
 .block-intro .title-wrapper {
-	width: 715px;
+	width: 660px;
 	padding-top: 26px;
 	position: absolute;
 	top: 50%;
@@ -2163,7 +2163,7 @@ header {width:100%;}
 	}
 
 	/* .block-intro */
-	
+
 	.block-intro .title-wrapper {left: 30px;}
 	.block-intro .title {font-size: 58px;}
 
