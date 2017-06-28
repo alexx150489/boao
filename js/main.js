@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	// ancor
-	$(".block-sidebar .link").on("click", function(e) {
+	$(".ancor-js").on("click", function(e) {
 		e.preventDefault();
 		var currentBlock = $(this).attr("href"),
 		currentBlockOffset = $(currentBlock).offset().top;
@@ -11,8 +11,8 @@ $(document).ready(function() {
 	});
 
 
-	// slcik slider http://kenwheeler.github.io/slick/ >>>
 
+	// slcik slider http://kenwheeler.github.io/slick/ >>>
 	$('.slider.slick1').slick({
 		autoplay: true,
 		pauseOnHover: true,

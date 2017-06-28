@@ -17,7 +17,7 @@
 		<script src="js/vendor/jquery-migrate-1.4.1.min.js"></script>
 		<script src="js/vendor/jquery.form.min.js"></script>
 		<script src="js/main.js"></script>
-
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 
 	<body>
@@ -28,21 +28,24 @@
 					<a class="logotype" href="#">
 						<img src="images/logo.png" alt="Логотип" width="80" height="103">
 					</a>
-					<a class="language eng" href="#">eng</a>
+					<div class="links-wrapper">
+						<a class="language" href="#">eng</a>
+						<a href="#" class="link">ЛК турагентств</a>
+					</div>
 				</div>
 
 				<div class="list-wrapper">
 					<div class="list-title"><span>Боао 9 "М" для Вас:</span></div>
 					<menu class="list">
-						<li><a class="link" href="#sections-item1">Море</a></li>
-						<li><a class="link" href="#sections-item2">Музыка</a></li>
-						<li><a class="link" href="#sections-item3">Медтуризм</a></li>
-						<li><a class="link" href="#sections-item4">Морепродукты</a></li>
-						<li><a class="link" href="#sections-item5">Медитация</a></li>
-						<li><a class="link" href="#sections-item6">Международность</a></li>
-						<li><a class="link" href="#sections-item7">Морской спорт</a></li>
-						<li><a class="link" href="#sections-item8">Малые народности</a></li>
-						<li><a class="link" href="#sections-item9">Молодожёны</a></li>
+						<li><a class="ancor-js" href="#sections-item1">Море</a></li>
+						<li><a class="ancor-js" href="#sections-item2">Музыка</a></li>
+						<li><a class="ancor-js" href="#sections-item3">Медтуризм</a></li>
+						<li><a class="ancor-js" href="#sections-item4">Морепродукты</a></li>
+						<li><a class="ancor-js" href="#sections-item5">Медитация</a></li>
+						<li><a class="ancor-js" href="#sections-item6">Международность</a></li>
+						<li><a class="ancor-js" href="#sections-item7">Морской спорт</a></li>
+						<li><a class="ancor-js" href="#sections-item8">Малые народности</a></li>
+						<li><a class="ancor-js" href="#sections-item9">Молодожёны</a></li>
 					</menu>
 				</div>
 			</aside>
@@ -52,7 +55,7 @@
 					<div class="block-first-screen">
 						<div class="site-wrap">
 						<!--BLOCK-HEADER-->
-						<header class="block-header clearfix">
+						<header id="page-top" class="block-header clearfix">
 							<nav>
 								<menu>
 									<li><a class="nav-link link1" href="#">О Боао</a></li>
@@ -80,7 +83,6 @@
 									<li><a class="nav-link link12" href="#">Контакты</a></li>
 								</menu>
 							</nav>
-							<div class="header-right"><a href="">ЛК турагентств</a></div>
 						</header>
 						<!--BLOCK-HEADER-END-->
 
@@ -108,6 +110,7 @@
 					<!--BLOCK-sections-->
 					<section class="block-sections">
 						<div class="sections-items">
+							<a href="#page-top" class="ancor-top ancor-js"></a>
 							<a id="sections-item1" class="item item1" href="#">
 								<div class="img"></div>
 								<div class="site-wrap">
