@@ -49,4 +49,52 @@ $(document).ready(function() {
 		nextArrow: $('.slick3-next')
 	});
 
+	$('.slider.slick4').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.slick4-prev'),
+		nextArrow: $('.slick4-next')
+	});
+
+		$('.slider.slick5').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.slick5-prev'),
+		nextArrow: $('.slick5-next')
+	});
+
+		$('.slider.slick6').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.slick6-prev'),
+		nextArrow: $('.slick6-next')
+	});
+
+	$('.slider.slick7').slick({
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.slick7-prev'),
+		nextArrow: $('.slick7-next')
+	});
+
 });
