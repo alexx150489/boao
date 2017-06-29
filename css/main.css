@@ -630,7 +630,6 @@ header {width:100%;}
 .block-restaurants .restaurants-info4 .text p a:hover {text-decoration: none;}
 
 /*BLOCK-TRANSPORT*/
-
 .block-transport {padding-top:98px; padding-bottom: 123px; background-color:#333333;}
 .block-transport .transport-title {margin-bottom: 25px;}
 .block-transport .transport-title h1 {font-family: "AmazingGrotesk",sans-serif;	font-size: 64px;line-height: 84px;color: #ffd200; font-weight: 100;}
@@ -653,16 +652,42 @@ header {width:100%;}
 .block-transport .transport-info2 .photo img {width: 100%;	max-width: 100%;	height: auto;}
 .block-transport .transport-info2 .photo-wrapper .descr {float: left;	width: 40%;	padding-right: 52px;	margin-top: -7px;	font-family: "OpenSansLight", sans-serif;font-size: 16px;line-height: 34px;font-weight: 100;color: #fff;}
 
-
 .block-transport .transport-info3 .info3-gallery {padding-top: 34px; padding-bottom: 31px;}
 .block-transport .transport-info3 .info3-gallery .slider-wrapper {position: relative;	float: left;	width: 60%;}
-.block-transport .transport-info3 .info3-gallery .slider-wrapper img {	width: 100%;	max-width: 100%;	height: auto;}
+.block-transport .transport-info3 .info3-gallery .slider-wrapper img {width: 100%;	max-width: 100%;	height: auto;}
 .block-transport .transport-info3 .info3-gallery .descr-wrapper {float: right;	width: 40%;}
 .block-transport .transport-info3 .info3-gallery .descr {padding-left: 57px;	margin-top: -7px;	font-family: "AmazingGrotesk-DemiBold", sans-serif;	font-size: 18px;
 	line-height: 36px;	color: #fff;}
 .block-transport .transport-info3 .info3-gallery .counter {position: absolute;	bottom: -7px;	right: -163px;	padding-right: 29px;	font-family: "OpenSansLight", sans-serif;	font-size: 16px;	line-height: 34px;	font-weight: 100;	color: #fff;}
 .block-transport .transport-info3 .info3-gallery .slider-next {position: absolute;	content: '';	width: 12px;	height: 20px;	top: 6px;	right: 0;	background:	url("../images/sprite123.png") -74px -271px no-repeat;	cursor: pointer;}
 .block-transport .transport-info3 .info3-gallery .slider-prev {position: absolute;	content: '';	width: 12px;	height: 20px;	top: 6px;	left: -29px;	background:	url("../images/sprite123.png") -42px -271px no-repeat;	cursor: pointer;}
+
+/*BLOCK-HOTELS*/
+.block-hotels {padding-top:98px; padding-bottom: 123px; background-color:#333333;}
+.block-hotels .hotels-title {margin-bottom: 11px; padding-top: 21px;}
+.block-hotels .hotels-title h1 {font-family: "AmazingGrotesk",sans-serif;	font-size: 64px;line-height: 84px;color: #ffd200; font-weight: 100;}
+.block-hotels .text p {font-family: "OpenSansLight", sans-serif;font-size: 16px;line-height: 34px;font-weight: 100;color: #fff;}
+.block-hotels .text.text1 p {margin-bottom: 14px;font-family: "AmazingGrotesk-DemiBold", sans-serif;	font-size: 18px;	line-height: 36px;	color: #fff;}
+.block-hotels .hotels-items {padding-top: 35px;}
+.block-hotels .hotels-items .item {width:40%; min-height: 492px; background-color: #2a2a2a;}
+.block-hotels .hotels-items .item:first-child {float: left;}
+.block-hotels .hotels-items .item:last-child {float: right;}
+.block-hotels .hotels-items .item .img img {width: 100%;	max-width: 100%;height: auto;}
+.block-hotels .hotels-items .row {margin-bottom: 38px;}
+.block-hotels .hotels-items .item .info-wrapper {padding: 0 38px;}
+.block-hotels .hotels-items .item .stars	{padding-top: 36px;}
+.block-hotels .hotels-items .item .stars .star {float: left; width: 24px; height: 32px; margin-right: 5px; background: url("../images/sprite123.png") -50px -321px no-repeat;}
+.block-hotels .hotels-items .item .name {margin-bottom: 4px;}
+.block-hotels .hotels-items .item .name span {font-family: "AmazingGrotesk-DemiBold", sans-serif;	font-size: 18px;	line-height: 31px;	color: #fff; text-decoration: underline;}
+.block-hotels .hotels-items .item .address {padding-left: 23px; padding-bottom: 10px;}
+.block-hotels .hotels-items .item .address span {position: relative; font-family: "OpenSansLight", sans-serif;font-size: 16px;line-height: 28px;font-weight: 100;color: #fff;}
+.block-hotels .hotels-items .item .address span::after {	position: absolute;	content: '';	width: 14px;	height: 15px;	top: 3px; left: -22px;	background: url("../images/sprite123.png") -150px -395px no-repeat;}
+
+.hotels-paginator .paginator-wrapper .paginator-item {float: left;width: 42px; height: 42px; margin-right: 10px; background-color: #2a2a2a; font-family: "AmazingGrotesk",sans-serif;	font-size: 16px;line-height: 42px;color: #ffd200; font-weight: 600; text-align: center;}
+.hotels-paginator .paginator-wrapper .paginator-item.prev {background:#2a2a2a url("../images/sprite123.png") -25px -383px no-repeat;}
+.hotels-paginator .paginator-wrapper .paginator-item.next {background:#2a2a2a url("../images/sprite123.png") -74px -381px no-repeat;}
+.hotels-paginator .paginator-wrapper .paginator-item.active {color: #fff;background:#ec9a00;background: -moz-linear-gradient(left, #ec9a00 0%, #fac800 55%); background: -webkit-linear-gradient(left, #ec9a00 0%,#fac800 55%); background: linear-gradient(to right, #ec9a00 0%,#fac800 55%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec9a00', endColorstr='#fac800',GradientType=1 );}
+
 /* ==========================================================================
 	 @MEDIAQUERIES 
 	 ========================================================================== */
@@ -784,7 +809,7 @@ header {width:100%;}
 	.block-restaurants .restaurants-info2 .photo-wrapper .descr p {font-family: "OpenSansLight", sans-serif;font-size: 16px;line-height: 34px;font-weight: 100;color: #fff;}
 	.block-restaurants .restaurants-info2 .photo-wrapper .photo {float: none;	width: 100%; margin-bottom: 20px;}
 
-		/*block-transport*/
+		/*block-transport*/ 
 	.block-transport .transport-info1 .photo-wrapper .descr {float: none;	width: 100%; padding-left: 0;}
 	.block-transport .transport-info1 .photo-wrapper .photo {float: none;	width: 100%; margin-bottom: 20px;}
 
@@ -797,5 +822,11 @@ header {width:100%;}
 	.block-transport .transport-info3 .info3-gallery .counter {bottom: -64px;	z-index: 99;	right: 0;}
 	.block-transport .transport-info3 .info3-gallery .descr {float: none;	width: 100%; padding-right: 0;}
 	.block-transport .transport-info3 .info3-gallery	.img {float: none;	width: 100%; margin-bottom: 20px;}
+
+		/*block-hotels*/ 
+	.block-hotels .hotels-items .row {margin-bottom: 0;}
+	.block-hotels .hotels-items .item {width:100%;	display: block; margin-bottom: 38px;}
+	.block-hotels .hotels-items .item:first-child {float: none;}
+	.block-hotels .hotels-items .item:last-child {float: none;}
 }
 
