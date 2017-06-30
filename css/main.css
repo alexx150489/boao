@@ -523,7 +523,7 @@ header {width:100%;}
 /*BLOCK-ABOUTBOAO*/
 .block-aboutBoao {padding-top:98px; padding-bottom:72px; background-color:#333333;}
 
-.block-aboutBoao .aboutBoao-title {padding-top: 3px;margin-bottom: 10px;}
+.block-aboutBoao .aboutBoao-title { padding-top: 21px; margin-bottom: 10px;}
 .block-aboutBoao .aboutBoao-title h1 {font-family: "AmazingGrotesk",sans-serif;	font-size: 64px;line-height: 84px;color: #ffd200; font-weight: 100;}
 
 .block-aboutBoao .aboutBoao-info1 {position: relative; margin-bottom: 120px;}
@@ -565,7 +565,7 @@ header {width:100%;}
 
 /*BLOCK-EXCURSION*/
 .block-excursion {padding-top:98px; background-color:#333333;}
-.block-excursion .excursion-title {padding-top: 3px;margin-bottom: 13px;}
+.block-excursion .excursion-title { padding-top: 21px; margin-bottom: 13px;}
 .block-excursion .excursion-title h1 {font-family: "AmazingGrotesk",sans-serif;	font-size: 64px;line-height: 84px;color: #ffd200; font-weight: 100;}
 .block-excursion .list-wrapper {position: relative;}
 .block-excursion .list-wrapper::after {position: absolute;	content: '';	width: 221px;	height: 1px;	bottom: -55px;	left: 0;	background-color: #fefefe;	opacity: .25;}
@@ -594,7 +594,7 @@ header {width:100%;}
 
 /*BLOCK-RESTAURANTS*/
 .block-restaurants {padding-top:98px; padding-bottom: 116px; background-color:#333333;}
-.block-restaurants .restaurants-title {margin-bottom: 16px;}
+.block-restaurants .restaurants-title {margin-bottom: 16px; padding-top: 21px;}
 .block-restaurants .restaurants-title h1 {font-family: "AmazingGrotesk",sans-serif;	font-size: 64px;line-height: 84px;color: #ffd200; font-weight: 100;}
 .block-restaurants .text p {font-family: "OpenSansLight", sans-serif;font-size: 16px;line-height: 34px;font-weight: 100;color: #fff;}
 .block-restaurants .restaurants-info1 {margin-bottom: 111px; position: relative;}
@@ -631,7 +631,7 @@ header {width:100%;}
 
 /*BLOCK-TRANSPORT*/
 .block-transport {padding-top:98px; padding-bottom: 123px; background-color:#333333;}
-.block-transport .transport-title {margin-bottom: 25px;}
+.block-transport .transport-title {margin-bottom: 25px; padding-top: 21px;}
 .block-transport .transport-title h1 {font-family: "AmazingGrotesk",sans-serif;	font-size: 64px;line-height: 84px;color: #ffd200; font-weight: 100;}
 .block-transport .text p {font-family: "OpenSansLight", sans-serif;font-size: 16px;line-height: 34px;font-weight: 100;color: #fff;}
 .block-transport .transport-info1 {margin-bottom: 116px;position: relative;}
@@ -688,6 +688,49 @@ header {width:100%;}
 .hotels-paginator .paginator-wrapper .paginator-item.next {background:#2a2a2a url("../images/sprite123.png") -74px -381px no-repeat;}
 .hotels-paginator .paginator-wrapper .paginator-item.active {color: #fff;background:#ec9a00;background: -moz-linear-gradient(left, #ec9a00 0%, #fac800 55%); background: -webkit-linear-gradient(left, #ec9a00 0%,#fac800 55%); background: linear-gradient(to right, #ec9a00 0%,#fac800 55%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec9a00', endColorstr='#fac800',GradientType=1 );}
 
+/*BLOCK-CLIMATE*/
+.block-climate {padding-top:98px; padding-bottom: 123px; background-color:#333333;}
+.block-climate .climate-title {margin-bottom: 17px; padding-top: 21px;}
+.block-climate .climate-title h1 {font-family: "AmazingGrotesk",sans-serif;	font-size: 64px;line-height: 84px;color: #ffd200; font-weight: 100;}
+.block-climate .text p {font-family: "OpenSansLight", sans-serif;font-size: 16px;line-height: 34px;font-weight: 100;color: #fff;}
+.block-climate .text.text1 p, .block-climate .text.text3 p {font-family: "AmazingGrotesk-DemiBold", sans-serif;	font-size: 18px;	line-height: 34px;	color: #fff;}
+.block-climate .text.text2 p {margin-bottom: 10px;}
+.block-climate .table-wrapper {padding-top: 31px; padding-bottom: 30px;}
+.block-climate .table-wrapper table {width: 100%;font-family: "OpenSansLight", sans-serif;font-size: 14px;font-weight: 100;color: #fff; border-collapse:collapse; border: 1px solid #666666;}
+.block-climate .table-wrapper table caption {font-family: "OpenSansBold", sans-serif;font-size: 14px;line-height: 38px;font-weight: 100;color: #fff;	border: 2px solid #666666; border-bottom: none;}
+.block-climate .table-wrapper table td {font-family: "OpenSansLight", sans-serif;font-size: 12px; font-weight: 100;color: #fff; text-align: center;	border: 2px solid #666666; vertical-align: middle;}
+.block-climate .table-wrapper table tr.first-row td {font-family: "OpenSansLight", sans-serif;font-size: 14px; font-weight: 100;color: #fff;	text-align: center;	border: 2px solid #666666;}
+.block-climate .table-wrapper table th {padding: 4px 0;font-family: "OpenSansLight", sans-serif;font-size: 14px;line-height: 34px; font-weight: 100;color: #fff; text-align: center; border: 2px solid #666666;}
+
+.block-climate .table-wrapper table .c1 {background-color: #ff8104;}
+.block-climate .table-wrapper table .c2 {background-color: #ff6500;}
+.block-climate .table-wrapper table .c3 {background-color: #ff5000;}
+.block-climate .table-wrapper table .c4 {background-color: #ff4000;}
+.block-climate .table-wrapper table .c5 {background-color: #ff9e3e;}
+.block-climate .table-wrapper table .c6 {background-color: #ff962d;}
+.block-climate .table-wrapper table .c7 {background-color: #ffb163;}
+
+.block-climate .table-wrapper table .c8 {background-color: #d0ffd0;}
+.block-climate .table-wrapper table .c9 {background-color: #b7ffb7;}
+.block-climate .table-wrapper table .c10 {background-color: #3dff3d;}
+.block-climate .table-wrapper table .c11 {background-color: #00bd00;}
+.block-climate .table-wrapper table .c12 {background-color: #005c00;}
+.block-climate .table-wrapper table .c13 {background-color: #003000;}
+
+.block-climate .table-wrapper table .c14 {background-color: #7c7cff;}
+.block-climate .table-wrapper table .c15 {background-color: #6767ff;}
+.block-climate .table-wrapper table .c16 {background-color: #4545ff;}
+.block-climate .table-wrapper table .c17 {background-color: #2222ff;}
+.block-climate .table-wrapper table .c18 {background-color: #0000b5;}
+
+
+.block-climate .table-wrapper table .c19 {background-color: #b4b46a;}
+.block-climate .table-wrapper table .c20 {background-color: #c4c40c;}
+.block-climate .table-wrapper table .c21 {background-color: #d4d400;}
+.block-climate .table-wrapper table .c22 {background-color: #ffff47;}
+.block-climate .table-wrapper table .c23 {background-color: #ffff63;}
+
+.block-climate .table-wrapper table .b {color: #000;}
 /* ==========================================================================
 	 @MEDIAQUERIES 
 	 ========================================================================== */
@@ -733,7 +776,7 @@ header {width:100%;}
 	.block-international .international-gallery1 .descr-wrapper {float: none;	width: 78%;}
 	.block-international .international-gallery1 .descr {	padding-left: 0;}
 	.block-international .international-gallery1 .counter {bottom: -64px;	z-index: 99;	right: 0;}
-	.block-international .international-info3	.item {display: inline-block;	vertical-align: top;	width: 240px;	margin-right: 75px;	margin-bottom: 34px;}
+	.block-international .international-info3	.item {display: inline-block;	vertical-align: top;	width: 52%;	margin-right: 0;	margin-bottom: 34px;}
 	.block-international .international-info3 .item:nth-child(3n) {margin-right: 75px;}
 	.block-international .international-info4 .text {width: 500px;}
 	.block-international .international-info4 .text-wrapper {display: inline-block; vertical-align: top;	width: 500px;}
