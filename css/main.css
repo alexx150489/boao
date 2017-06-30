@@ -165,11 +165,12 @@ header {width:100%;}
 .block-sections .item .img {background: no-repeat center center;	background-size: cover;	width: 100%;	height: 100%;	position: absolute;	top: 0px;	left: 0px;
 	transition: all .3s ease;}
 .block-sections .item .title-wrapper {position: relative;}
+.block-sections .item .title {}
 .block-sections .item .title:first-child {margin-bottom: 3px;}
 .block-sections .item .title:last-child span {position: relative;}
 .block-sections .item .title:last-child span::after {position: absolute;	content: '';	width: 32px;	height: 22px;	top: 50%;	transform: translateY(-50%);	right: -61px;	background:	url("../images/sprite123.png") -10px -10px no-repeat;	transition: all .2s ease-in;}
 .block-sections .item .title-wrapper {padding-top: 115px;	margin-bottom: 31px;	position: relative;	z-index: 99;}
-.block-sections .item .title span {display: inline-block;	vertical-align: top; padding: 0 30px;	font-family: "AmazingGrotesk", sans-serif;	font-size: 48px;	line-height: 75px;	color: #fff;	background: #ec9b00;	background: -moz-linear-gradient(left, #ec9b00 0%, #fac800 83%); 	background: -webkit-linear-gradient(left, #ec9b00 0%,#fac800 83%); 	background: linear-gradient(to right, #ec9b00 0%,#fac800 83%); 	transition: all .3s ease-in;}
+.block-sections .item .title span {display: inline-block;	vertical-align: top; padding: 0 30px;	font-family: "AmazingGrotesk", sans-serif;	font-size: 48px;	line-height: 75px;	color: #fff;	background: #ec9b00;	background: -moz-linear-gradient(left, #ec9b00 0%, #fac800 83%); 	background: -webkit-linear-gradient(left, #ec9b00 0%,#fac800 83%); 	background: linear-gradient(to right, #ec9b00 0%,#fac800 83%); 	transition: all .3s ease-in;white-space: nowrap;}
 .block-sections .item .title:first-child span:first-letter {font-family: "AmazingGrotesk-Ultra", sans-serif;}
 
 .block-sections .item:hover .img {-webkit-transform: scale(1.14);	-moz-transform: scale(1.14);	-ms-transform: scale(1.14);	-o-transform: scale(1.14);	transform: scale(1.14);}
