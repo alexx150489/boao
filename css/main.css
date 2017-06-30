@@ -682,7 +682,7 @@ header {width:100%;}
 .block-hotels .hotels-items .item .address {padding-left: 23px; padding-bottom: 10px;}
 .block-hotels .hotels-items .item .address span {position: relative; font-family: "OpenSansLight", sans-serif;font-size: 16px;line-height: 28px;font-weight: 100;color: #fff;}
 .block-hotels .hotels-items .item .address span::after {	position: absolute;	content: '';	width: 14px;	height: 15px;	top: 3px; left: -22px;	background: url("../images/sprite123.png") -150px -395px no-repeat;}
-
+.hotels-paginator .paginator-wrapper .paginator-pages {float: left;}
 .hotels-paginator .paginator-wrapper .paginator-item {float: left;width: 42px; height: 42px; margin-right: 10px; background-color: #2a2a2a; font-family: "AmazingGrotesk",sans-serif;	font-size: 16px;line-height: 42px;color: #ffd200; font-weight: 600; text-align: center;}
 .hotels-paginator .paginator-wrapper .paginator-item.prev {background:#2a2a2a url("../images/sprite123.png") -25px -383px no-repeat;}
 .hotels-paginator .paginator-wrapper .paginator-item.next {background:#2a2a2a url("../images/sprite123.png") -74px -381px no-repeat;}
