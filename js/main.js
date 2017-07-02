@@ -10,8 +10,6 @@ $(document).ready(function() {
 		}, 500);
 	});
 
-
-
 	// slcik slider http://kenwheeler.github.io/slick/ >>>
 	$('.slider.slick1').slick({
 		autoplay: true,
